@@ -1,0 +1,27 @@
+# curl -i http://httpbin.org/ip
+GET http://httpbin.org/ip
+
+###
+
+!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialog - HTML - Open or Closed</title>
+  </head>
+  <body>
+    <dialog>
+      <h1>Dialog (Closed)</h1>
+      <p>Closed dialog content.</p>
+    </dialog>
+
+    <dialog open>
+      <h1>Dialog (Open)</h1>
+      <p>Open dialog content.</p>
+    </dialog>
+  </body>
+</html>
+
+###
